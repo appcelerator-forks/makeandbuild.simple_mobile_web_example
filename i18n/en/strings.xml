@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="local_shows">Local Shows</string>	
+	<string name="songs_by_artist">Songs By Artist</string>
+	<string name="shows_loading">Loading Show Information</string>
+	<string name="songs_loading">Select an Artist First</string>
+	<string name="openWindow">Open New Window</string>
+	<string name="newWindow">New Window</string>
+</resources>

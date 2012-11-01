@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">hZRwbh77iXAxxL9cl6igG9Vbe3q27pby</property>
+    <property name="acs-oauth-key-production" type="string">h6kro1GYb6AUIvPaNuEml4jnTzIaV1Nk</property>
+    <property name="acs-api-key-production" type="string">3TZlNNRqb80BcZzvS6dTE8bT6XxQrcxw</property>
+    <property name="acs-oauth-secret-development" type="string">wvmbN0GU9V0a9jGxAoIL11juYfoxk5HY</property>
+    <property name="acs-oauth-key-development" type="string">6gOzhWkgrKT6XN571gA1WFiRugqBBkYz</property>
+    <property name="acs-api-key-development" type="string">M0m7mdVI1HTdMioFmIbSsOK21ToDTobC</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.GA</sdk-version>
+    <id>com.ehirelabs.simplemw</id>
+    <name>SimpleMobileWeb</name>
+    <version>1.0</version>
+    <publisher>scorley</publisher>
+    <url>http://ehirelabs.com</url>
+    <description>not specified</description>
+    <copyright>2012 by scorley</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>cab39471-d63b-44e8-94c4-1273dff7664a</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
